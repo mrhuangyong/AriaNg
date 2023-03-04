@@ -15,7 +15,7 @@ RUN echo "\
       gzip_vary on; \
       gzip_disable \"MSIE [1-6]\.\"; \
       location / { \
-        root /app; \
+        root /www; \
         index index.html index.htm;  \
         client_max_body_size 1024M; \
       } \
